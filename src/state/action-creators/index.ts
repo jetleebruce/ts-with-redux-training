@@ -26,7 +26,7 @@ export const searchRepositories = (term: string) => {
       dispatch({
         type: ActionType.SEARCH_REPOSITORIES_SUCCESS,
         payload: names,
-      })
+      });
 
     } catch (err: any) {
       dispatch({
